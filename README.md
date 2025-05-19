@@ -19,10 +19,6 @@ Tenha tudo o que precisa para organizar seu dia de trabalho em um só lugar: not
 - **Persistência**: Tudo salvo automaticamente no localStorage.
 - **Barra de status e dock**: Acesso rápido a todos os apps.
 
-## 🖥️ Acesse em
-
-[DevRoom]()
-
 ## 🚀 Instalação
 
 ```bash

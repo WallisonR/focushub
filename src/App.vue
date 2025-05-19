@@ -362,7 +362,7 @@ function deactivatePauseMode() {
       <div class="max-w-md w-full bg-gray-900 p-8 rounded-xl shadow-xl text-center border border-blue-500" id="onboarding-content">
         <!-- Passo 0 do onboarding -->
         <div v-if="onboardingStep === 0" id="onboarding-step-0">
-          <h2 class="text-2xl font-bold mb-4">Bem-vindo ao Dev Room 🚀</h2>
+          <h2 class="text-2xl font-bold mb-4">Bem-vindo ao FocusHub🚀</h2>
           <p class="mb-6">Esse é seu espaço digital com ferramentas úteis para programar, se organizar e focar.</p>
           <button
             @click="onboardingStep++"
@@ -397,7 +397,7 @@ function deactivatePauseMode() {
           <button
             @click="endOnboarding"
             class="cursor-pointer bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded text-white font-semibold"
-            aria-label="Começar a usar o Dev Room"
+            aria-label="Começar a usar o FocusHub"
             id="onboarding-finish-btn"
           >
             Começar
@@ -734,7 +734,7 @@ function deactivatePauseMode() {
       class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-blue-800 text-white px-6 py-3 rounded shadow-lg z-50 flex items-center gap-4"
       id="install-prompt"
     >
-      <span>Instale o Dev Room no seu dispositivo para acesso rápido!</span>
+      <span>Instale o FocusHub no seu dispositivo para acesso rápido!</span>
       <button @click="installApp" class="cursor-pointer bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded font-bold" id="install-prompt-install-btn">Instalar</button>
       <button @click="showInstallPrompt = false" class="cursor-pointer ml-2 text-blue-200 hover:text-white" id="install-prompt-close-btn">Fechar</button>
     </div>
