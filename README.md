@@ -23,7 +23,7 @@ Tenha tudo o que precisa para organizar seu dia de trabalho em um só lugar: not
 
 ```bash
 git clone https://github.com/WallisonR/focushub
-cd dev-room
+cd focushub
 npm install
 npm run dev
 ```
@@ -40,7 +40,7 @@ Acesse em [http://localhost:5173](http://localhost:5173)
 
 ## 🎨 Temas
 
-Personalize o visual do Dev Room com temas como:
+Personalize o visual do Focus Hub com temas como:
 - Default
 - Dark
 - Solarized
